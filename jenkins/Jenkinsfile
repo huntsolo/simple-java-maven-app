@@ -1,6 +1,6 @@
 node {
 	def app
-	def image = 'huntsolo/test'
+	def image = 'huntsolo/simple-java-maven-app'
 	def branch = 'dev'
 	
 	try {
