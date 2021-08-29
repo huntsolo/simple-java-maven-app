@@ -6,4 +6,4 @@ COPY ./target/*.jar /
 #ENV GOOGLE_APPLICATION_CREDENTIALS="/carey-development-service-config.json"
 
 EXPOSE 32010
-ENTRYPOINT ["java", "-jar", "./*.jar"]
+ENTRYPOINT ["java", "-jar", "./my-app-1.0-SNAPSHOT.jar"]
