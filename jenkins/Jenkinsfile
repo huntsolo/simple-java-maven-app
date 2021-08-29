@@ -47,7 +47,7 @@ node {
       
         stage ('Docker Run') {
             //sh 'docker run -d -t -p 32010:32010 -v /etc/careydevelopment:/etc/careydevelopment --name ecosystem-user-service ecosystem-user-service:latest'
-		sh 'docker run' image':latest'
+		sh 'docker run huntsolo/test:latest'
         }
 	} catch (e) {
 		echo 'Error occurred during build process!'
